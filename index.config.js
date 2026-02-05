@@ -1,67 +1,34 @@
-var __defProp = Object.defineProperty;
+@@ -2,9 +2,9 @@ var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
 var __export = (target, 所有) => {
   for (var 名字 in 所有)
     __defProp(target, 名字, { get: 所有[名字], enumerable: true });
 };
 var __copyProps = (to, from, except, desc) => {
   if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-
+@@ -19,7 +19,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.config.js
 var index_config_exports = {};
 __export(index_config_exports, {
+  default: () => index_config_default
   默认: () => index_config_default
 });
 module.exports = __toCommonJS(index_config_exports);
 var index_config_default = {
-  ali: {
-    token: "",
-    token280: "token280"
-  },
-  quark: {
-    cookie: ""
-  },
-  uc: {
-    cookie: "cookie",
-    token: "token",
-    ut: "ut"
-  },
-  y115: {
-    cookie: ""
-  },
-  muou: {
-    url: ""
-  },
-  wogg: {
-    url: ""
-  },
-  leijing: {
-    url: ""
-  },
-  tgsou: {
-    tgPic: false,
-    count: 0,
-    url: "",
-    channelUsername: ""
-  },
-  tgchannel: {},
-  sites: {
-    list: []
-  },
-  pans: {
-    list: []
+@@ -62,98 +62,98 @@ var index_config_default = {
   },
    danmu: {
     urls: [
+           { address: "https://logdanmu.dpdns.org", name: "默认1" },
+           { address: "https://fjj0417.dpdns.org/87654321", name: "默认2" }, 
+           { address: "https://dm.stardm.us.kg:443/87654321", name: "默认3" }, 
+           { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }, 
+           { address: "https://313236.xyz/87654321", name: "默认5" }
            { address: "https://logdanmu.dpdns.org", 名字: "默认1" },
            { address: "https://fjj0417.dpdns.org/87654321", 名字: "默认2" }, 
            { address: "https://dm.stardm.us.kg:443/87654321", 名字: "默认3" }, 
@@ -71,82 +38,123 @@ var index_config_default = {
     autoPush: true
   },
  t4: {list: [
-    {名字: "✈️关注TG频道@stymei",
+    {name: "✈️关注TG频道@stymei",
+    {名字: "主站",
       address: "http://zhangqun1818.serv00.net:6628/?spider=独播库"},
-    {名字: "👖裤佬丨免扫码丨网盘",
-      address: "http://sspa8.top:99/php/专享.php"},
-    {名字: "👖裤佬丨电视丨直播",
+    {name: "👖裤佬丨电视丨直播",
+    {名字: "丨电视丨直播",
       address: "http://zhangqun1818.serv00.net/zh/2242.php"},
-    {名字: "👖裤佬丨瓜子丨JS",
-@@ -79,8 +77,6 @@ var index_config_default = {
+    {name: "👖裤佬丨瓜子丨影视",
+    {名字: "丨瓜子丨影视",
+      address: "https://newtv.ggff.net/guazi?token=MRdKOtZ4"},
+    {name: "👖裤佬丨瓜子丨备用",
+    {名字: "丨瓜子丨备用",
       address: "https://catbox.n13.club/ai/瓜子影视.php"},
-    {名字: "👖裤佬丨红果丨短剧",
-      address: "https://catbox.n13.club/ai/红果短剧.php"},
-    {名字: "👖裤佬丨星阁丨短剧",
-      address: "https://catbox.n13.club/t9/xingzhige.php"},
-    {名字: "👖裤佬丨旺旺丨短剧",
-      address: "http://zhangqun1818.serv00.net/ww.php"},
-    {名字: "👖裤佬丨永乐丨影视",
-@@ -97,14 +93,10 @@ var index_config_default = {
-      address: "https://newtv.ggff.net/uvod?token=MRdKQtZ4"},
+    {name: "👖裤佬丨永乐丨影视",
+    {名字: "丨永乐丨影视",
+      address: "https://newtv.ggff.net/yongle?token=MRdKOtZ4"},
+    {name: "👖裤佬丨欧乐丨影视",
+    {名字: "丨欧乐丨影视",
+      address: "https://newtv.ggff.net/oule?token=MRdKOtZ4"},
+    {name: "👖裤佬丨荐片丨影视",
+    {名字: "丨荐片丨影视",
+      address: "https://newtv.ggff.net/jianpian?token=MRdKOtZ4"},
+    {name: "👖裤佬丨ikbot丨影视",
+    {名字: "丨ikbot丨影视",
+      address: "https://newtv.ggff.net/ikanbot?token=MRdKOtZ4"},
+    {名字: "👖裤佬丨剧吧丨影视",
+    {名字: "丨剧吧丨影视",
+      address: "https://newtv.ggff.net/jubaba?token=MRdKOtZ4"},
+    {名字: "👖裤佬丨奇优丨影视",
+    {名字: "丨奇优丨影视",
+      address: "https://newtv.ggff.net/uvod?token=MRdKOtZ4"},
     {名字: "👖裤佬丨爱瓜丨影视",
-      address: "https://newtv.ggff.net/aigua?token=MRdKQtZ4"},
-    {名字: "👖裤佬丨苹果丨影视",
-      address: "https://newtv.ggff.net/pingguo?token=LOO8vZfB"},
+    {名字: "丨爱瓜丨影视",
+      address: "https://newtv.ggff.net/aigua?token=MRdKOtZ4"},
     {名字: "👖裤佬丨3Q丨影视",
+    {名字: "丨3Q丨影视",
       address: "http://zhangqun1818.serv00.net:6628/?spider=3q影视"},
+    {名字: "👖裤佬丨红果丨短剧",
+    {名字: "丨红果丨短剧",
+      address: "https://catbox.n13.club/ai/红果短剧.php"},
+    {名字: "👖裤佬丨旺旺丨短剧",
+    {名字: "丨旺旺丨短剧",
+      address: "http://zhangqun1818.serv00.net/ww.php"},
     {名字: "👖裤佬丨Emby丨WebDAV",
+    {名字: "丨Emby丨WebDAV",
       address: "http://zhangqun1818.serv00.net:6628/?spider=emby"},
-    {名字: "👖裤佬丨荐片丨APP",
-      address: "https://newtv.ggff.net/jianpian?token=P69Phb_y"},
     {名字: "👖裤佬丨凤凰丨FM",
+    {名字: "丨凤凰丨FM",
       address: "http://zhangqun1818.serv00.net:6628/?spider=凤凰fm"},
     {名字: "👖裤佬丨采集丨聚合",
-@@ -116,27 +108,19 @@ var index_config_default = {
+    {名字: "丨采集丨聚合",
+      address: "http://zhangqun1818.serv00.net/cj/cjjh.php"},
+    {名字: "👖裤佬丨JS丨聚合",
+    {名字: "丨JS丨聚合",
+      address: "http://zhangqun1818.serv00.net/js.php"},
+    {名字: "👖裤佬丨PY丨聚合",
+    {名字: "丨PY丨聚合",
+      address: "http://zhangqun1818.serv00.net/py.php"},
     {名字: "👖裤佬丨PHP丨聚合",
-      address: "http://zhangqun1818.serv00.net/php.php"},
-    {名字: "👖🔞裤佬丨中国丨大秀",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=色播聚合"},
-      address: "https://learnpython.ggff.net/zgdxStymei"},
-    {名字: "👖🔞裤佬丨欧美丨大秀",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=cam4"},
-    {名字: "👖🔞裤佬丨测试丨大秀",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=stripchat"},
-      address: "https://learnpython.ggff.net/cam4"},
-    {名字: "👖🔞裤佬丨俄国丨大秀",
-      address: "https://learnpython.ggff.net/elsdxStymei"},
-    {名字: "👖🔞裤佬丨51丨吃瓜",
-      address: "https://learnpython.ggff.net/51xiG"},
-    {名字: "👖🔞裤佬丨黑料丨吃瓜",
-      address: "https://learnpython.ggff.net/HLBTY"},
-    {名字: "👖🔞裤佬丨爆料丨吃瓜",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=91网爆黑料"},
-    {名字: "👖🔞裤佬丨139丨听书",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=139fm多分类"},
-    {名字: "👖🔞裤佬丨uaa丨听书",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=uaa有声"},
-    {名字: "👖🔞裤佬丨香蕉丨爬虫",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=香蕉视频"},
-    {名字: "👖🔞裤佬丨好色丨爬虫",
-      address: "http://zhangqun1818.serv00.net/haose.php"},
-      address: "https://learnpython.ggff.net/blcgStymei"},
-    {名字: "👖🔞裤佬丨EPO丨爬虫",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=epo"},
-    {名字: "👖🔞裤佬丨推特丨爬虫",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=推特"},
-    {名字: "👖🔞裤佬丨酒曲丨爬虫",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=九个区"}
-      address: "https://learnpython.ggff.net/epo"}
+    {名字: "丨PHP丨聚合",
+      address: "http://zhangqun1818.serv00.net/php.php"}
 ]},
   cms: {list: [
+{名字: "👖🔞裤佬丨中国丨大秀",
+address: "http://zhangqun1818.serv00.net:5052/?sp=色播聚合"},
+address: "https://learnpython.ggff.net/zgdxStymei"},
+{名字: "👖🔞裤佬丨欧美丨大秀",
+address: "http://zhangqun1818.serv00.net:5052/?sp=cam4"},
+{名字: "👖🔞裤佬丨测试丨大秀",
+address: "http://zhangqun1818.serv00.net:5052/?sp=stripchat"},
+address: "https://learnpython.ggff.net/cam4"},
+{名字: "👖🔞裤佬丨俄国丨大秀",
+      address: "https://learnpython.ggff.net/elsdxStymei"},
 {名字: "👖🔞裤佬丨麻花丨采集",
+{名字: "🔞丨麻花丨采集",
+address: "https://19q.cc/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨杏吧丨采集",
+{名字: "🔞丨杏吧丨采集",
+address: "https://xingba111.com/api.php/provide/vod/?ac=list"},
+{名字: "👖🔞裤佬丨越南丨采集",
+{名字: "🔞丨越南丨采集",
+address: "https://vnzyz.com/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨细胞丨采集",
+{名字: "🔞丨细胞丨采集",
+address: "https://www.xxibaozyw.com/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨91AV丨采集",
+{名字: "🔞丨91AV丨采集",
+address: "https://91av.cyou/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨小鸡丨采集",
+{名字: "🔞丨小鸡丨采集",
+address: "https://api.xiaojizy.live/provide/vod"},
+{名字: "👖🔞裤佬丨大奶丨采集",
+{名字: "🔞丨大奶丨采集",
+address: "https://apidanaizi.com/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨仓库丨采集",
+{名字: "🔞丨仓库丨采集",
+address: "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json"},
+{名字: "👖🔞裤佬丨玉兔丨采集",
+{名字: "🔞丨玉兔丨采集",
+address: "https://apiyutu.com/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨奶香丨采集",
+{名字: "🔞丨奶香丨采集",
+address: "https://naixxzy.com/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨乐播丨采集",
+{名字: "🔞丨乐播丨采集",
+address: "https://lbapi9.com/api.php/provide/vod"},
+{名字: "👖🔞裤佬丨幸源丨采集",
+{名字: "🔞丨幸源丨采集",
+address: "https://xzybb1.com/api.php/provide/vod"}
 ]},
   alist: [
     {
       名字: "🐉神族九帝",
+      名字: "🐉神族九帝",
       server: "https://alist.shenzjd.com"
     },
     {
+      名字: "💢repl",
       名字: "💢repl",
       server: "https://ali.liucn.repl.co"
     }
@@ -154,213 +162,30 @@ var index_config_default = {
   color: [
     {
       亮: {
+      亮: {
         bg: "https://i2.100024.xyz/2024/01/13/pptcej.webp",
         bgMask: "0x50ffffff",
+        主要: "0xff446732",
         主要: "0xff446732",
         onPrimary: "0xffffffff",
         primaryContainer: "0xffc5efab",
         onPrimaryContainer: "0xff072100",
-        secondary: "0xff55624c",
-        onSecondary: "0xffffffff",
-        secondaryContainer: "0xffd9e7cb",
-        onSecondaryContainer: "0xff131f0d",
-        tertiary: "0xff386666",
-        onTertiary: "0xffffffff",
-        tertiaryContainer: "0xffbbebec",
-        onTertiaryContainer: "0xff002020",
-        error: "0xffba1a1a",
-        onError: "0xffffffff",
-        errorContainer: "0xffffdad6",
-        onErrorContainer: "0xff410002",
-        background: "0xfff8faf0",
-        onBackground: "0xff191d16",
-        surface: "0xfff8faf0",
-        onSurface: "0xff191d16",
-        surfaceVariant: "0xffe0e4d6",
-        onSurfaceVariant: "0xff191d16",
-        inverseSurface: "0xff2e312b",
-        inverseOnSurface: "0xfff0f2e7",
-        outline: "0xff74796d",
-        outlineVariant: "0xffc3c8bb",
-        shadow: "0xff000000",
-        scrim: "0xff000000",
+@@ -184,10 +184,10 @@ address: "https://xzybb1.com/api.php/provide/vod"}
         inversePrimary: "0xffaad291",
         surfaceTint: "0xff446732"
       },
       暗: {
+      暗: {
         bg: "https://i2.100024.xyz/2024/01/13/pptg3z.webp",
         bgMask: "0x50000000",
+        主要: "0xffaad291",
         主要: "0xffaad291",
         onPrimary: "0xff173807",
         primaryContainer: "0xff2d4f1c",
         onPrimaryContainer: "0xffc5efab",
-        secondary: "0xffbdcbb0",
-        onSecondary: "0xff283420",
-        secondaryContainer: "0xff3e4a35",
-        onSecondaryContainer: "0xffd9e7cb",
-        tertiary: "0xffa0cfcf",
-        onTertiary: "0xff003738",
-        tertiaryContainer: "0xff1e4e4e",
-        onTertiaryContainer: "0xffbbebec",
-        error: "0xffffb4ab",
-        onError: "0xff690005",
-        errorContainer: "0xff93000a",
-        onErrorContainer: "0xffffdad6",
-        background: "0xff11140e",
-        onBackground: "0xffe1e4d9",
-        surface: "0xff11140e",
-        onSurface: "0xffe1e4d9",
-        surfaceVariant: "0xff43483e",
-        onSurfaceVariant: "0xffe1e4d9",
-        inverseSurface: "0xffe1e4d9",
-        inverseOnSurface: "0xff2e312b",
-        outline: "0xff8d9286",
-        outlineVariant: "0xff43483e",
-        shadow: "0xff000000",
-        scrim: "0xff000000",
-        inversePrimary: "0xff446732",
-        surfaceTint: "0xffaad291"
-      }
-    },
-    {
-      亮: {
-        bg: "https://i2.100024.xyz/2024/01/13/pi2rpw.webp",
-        bgMask: "0x50ffffff",
-        主要: "0xff666014",
-        onPrimary: "0xffffffff",
-        primaryContainer: "0xffeee58c",
-        onPrimaryContainer: "0xff1f1c00",
-        secondary: "0xff625f42",
-        onSecondary: "0xffffffff",
-        secondaryContainer: "0xffe9e4be",
-        onSecondaryContainer: "0xff1e1c05",
-        tertiary: "0xff3f6654",
-        onTertiary: "0xffffffff",
-        tertiaryContainer: "0xffc1ecd5",
-        onTertiaryContainer: "0xff002114",
-        error: "0xffba1a1a",
-        onError: "0xffffffff",
-        errorContainer: "0xffffdad6",
-        onErrorContainer: "0xff410002",
-        background: "0xfffef9eb",
-        onBackground: "0xff1d1c14",
-        surface: "0xfffef9eb",
-        onSurface: "0xff1d1c14",
-        surfaceVariant: "0xffe7e3d0",
-        onSurfaceVariant: "0xff1d1c14",
-        inverseSurface: "0xff323128",
-        inverseOnSurface: "0xfff5f1e3",
-        outline: "0xff7a7768",
-        outlineVariant: "0xffcbc7b5",
-        shadow: "0xff000000",
-        scrim: "0xff000000",
-        inversePrimary: "0xffd1c973",
-        surfaceTint: "0xff666014"
-      },
-      暗: {
-        bg: "https://i2.100024.xyz/2024/01/13/pi2reo.webp",
-        bgMask: "0x50000000",
-        主要: "0xffd1c973",
-        onPrimary: "0xff353100",
-        primaryContainer: "0xff4d4800",
-        onPrimaryContainer: "0xffeee58c",
-        secondary: "0xffcdc8a3",
-        onSecondary: "0xff333117",
-        secondaryContainer: "0xff4a482c",
-        onSecondaryContainer: "0xffe9e4be",
-        tertiary: "0xffa6d0b9",
-        onTertiary: "0xff0e3727",
-        tertiaryContainer: "0xff274e3d",
-        onTertiaryContainer: "0xffc1ecd5",
-        error: "0xffffb4ab",
-        onError: "0xff690005",
-        errorContainer: "0xff93000a",
-        onErrorContainer: "0xffffdad6",
-        background: "0xff14140c",
-        onBackground: "0xffe7e2d5",
-        surface: "0xff14140c",
-        onSurface: "0xffe7e2d5",
-        surfaceVariant: "0xff49473a",
-        onSurfaceVariant: "0xffe7e2d5",
-        inverseSurface: "0xffe7e2d5",
-        inverseOnSurface: "0xff323128",
-        outline: "0xff949181",
-        outlineVariant: "0xff49473a",
-        shadow: "0xff000000",
-        scrim: "0xff000000",
-        inversePrimary: "0xff666014",
-        surfaceTint: "0xffd1c973"
-      }
-    },
-    {
-      亮: {
-        bg: "https://i2.100024.xyz/2024/01/13/qrnuwt.webp",
-        bgMask: "0x50ffffff",
-        主要: "0xFF2B6C00",
-        onPrimary: "0xFFFFFFFF",
-        primaryContainer: "0xFFA6F779",
-        onPrimaryContainer: "0xFF082100",
-        secondary: "0xFF55624C",
-        onSecondary: "0xFFFFFFFF",
-        secondaryContainer: "0xFFD9E7CA",
-        onSecondaryContainer: "0xFF131F0D",
-        tertiary: "0xFF386666",
-        onTertiary: "0xFFFFFFFF",
-        tertiaryContainer: "0xFFBBEBEB",
-        onTertiaryContainer: "0xFF002020",
-        error: "0xFFBA1A1A",
-        onError: "0xFFFFFFFF",
-        errorContainer: "0xFFFFDAD6",
-        onErrorContainer: "0xFF410002",
-        background: "0xFFFDFDF5",
-        onBackground: "0xFF1A1C18",
-        surface: "0xFFFDFDF5",
-        onSurface: "0xFF1A1C18",
-        surfaceVariant: "0xFFE0E4D6",
-        onSurfaceVariant: "0xFF1A1C18",
-        inverseSurface: "0xFF2F312C",
-        onInverseSurface: "0xFFF1F1EA",
-        outline: "0xFF74796D",
-        outlineVariant: "0xFFC3C8BB",
-        shadow: "0xFF000000",
-        scrim: "0xFF000000",
-        inversePrimary: "0xFF8CDA60",
-        surfaceTint: "0xFF2B6C00"
-      },
-      暗: {
-        bg: "https://i2.100024.xyz/2024/01/13/qrc37o.webp",
-        bgMask: "0x50000000",
-        主要: "0xFF8CDA60",
-        onPrimary: "0xFF133800",
-        primaryContainer: "0xFF1F5100",
-        onPrimaryContainer: "0xFFA6F779",
-        secondary: "0xFFBDCBAF",
-        onSecondary: "0xFF283420",
-        secondaryContainer: "0xFF3E4A35",
-        onSecondaryContainer: "0xFFD9E7CA",
-        tertiary: "0xFFA0CFCF",
-        onTertiary: "0xFF003737",
-        tertiaryContainer: "0xFF1E4E4E",
-        onTertiaryContainer: "0xFFBBEBEB",
-        error: "0xFFFFB4AB",
-        errorContainer: "0xFF93000A",
-        onError: "0xFF690005",
-        onErrorContainer: "0xFFFFDAD6",
-        background: "0xFF1A1C18",
-        onBackground: "0xFFE3E3DC",
-        outline: "0xFF8D9286",
-        onInverseSurface: "0xFF1A1C18",
-        inverseSurface: "0xFFE3E3DC",
-        inversePrimary: "0xFF2B6C00",
-        shadow: "0xFF000000",
-        surfaceTint: "0xFF8CDA60",
-        outlineVariant: "0xFF43483E",
-        scrim: "0xFF000000",
-        surface: "0xFF1A1C18",
-        onSurface: "0xFFC7C7C0",
-        surfaceVariant: "0xFF43483E",
-        onSurfaceVariant: "0xFFC7C7C0"
+@@ -360,4 +360,4 @@ address: "https://xzybb1.com/api.php/provide/vod"}
       }
     }
   ]
+};
 };
