@@ -2,9 +2,9 @@ var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
+var __export = (target, 所有) => {
+  for (var 名字 in 所有)
+    __defProp(target, 名字, { get: 所有[名字], enumerable: true });
 };
 var __copyProps = (to, from, except, desc) => {
   if (from && typeof from === "object" || typeof from === "function") {
@@ -19,7 +19,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.config.js
 var index_config_exports = {};
 __export(index_config_exports, {
-  default: () => index_config_default
+  默认: () => index_config_default
 });
 module.exports = __toCommonJS(index_config_exports);
 var index_config_default = {
@@ -62,96 +62,101 @@ var index_config_default = {
   },
    danmu: {
     urls: [
-           { address: "https://logdanmu.dpdns.org", name: "默认1" },
-           { address: "https://fjj0417.dpdns.org/87654321", name: "默认2" }, 
-           { address: "https://dm.stardm.us.kg:443/87654321", name: "默认3" }, 
-           { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }, 
-           { address: "https://313236.xyz/87654321", name: "默认5" }
+           { address: "https://logdanmu.dpdns.org", 名字: "默认1" },
+           { address: "https://fjj0417.dpdns.org/87654321", 名字: "默认2" }, 
+           { address: "https://dm.stardm.us.kg:443/87654321", 名字: "默认3" }, 
+           { address: "https://danmu.14812910.xyz/87654321", 名字: "默认4" }, 
+           { address: "https://313236.xyz/87654321", 名字: "默认5" }
           ],
     autoPush: true
   },
  t4: {list: [
-    {name: "✈️关注TG频道@stymei",
+    {名字: "✈️关注TG频道@stymei",
       address: "http://zhangqun1818.serv00.net:6628/?spider=独播库"},
-    {name: "👖裤佬丨电视丨直播",
+    {名字: "👖裤佬丨免扫码丨网盘",
+      address: "http://sspa8.top:99/php/专享.php"},
+    {名字: "👖裤佬丨电视丨直播",
       address: "http://zhangqun1818.serv00.net/zh/2242.php"},
-    {name: "👖裤佬丨瓜子丨影视",
+    {名字: "👖裤佬丨瓜子丨JS",
+@@ -79,8 +77,6 @@ var index_config_default = {
       address: "https://catbox.n13.club/ai/瓜子影视.php"},
-    {name: "👖裤佬丨苹果丨影视",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=apple"},
-    {name: "👖裤佬丨3Q丨影视",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=3q影视"},
-    {name: "👖裤佬丨小鸭丨影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看"},
-    {name: "👖裤佬丨爱瓜丨影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=爱瓜影视"},
-    {name: "👖裤佬丨荐片丨影视",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=荐片"},
-    {name: "👖裤佬丨人人丨影视",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=人人影视"},
-    {name: "👖裤佬丨凡客丨影视",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=凡客tv"},
-    {name: "👖裤佬丨永乐丨影视",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=永乐视频"},
-    {name: "👖裤佬丨鬼片丨影视",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=鬼片之家"},
-    {name: "👖裤佬丨UVod丨影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=UVod"},
-    {name: "👖裤佬丨努努丨影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=努努影院"},
-    {name: "👖裤佬丨哇哇丨影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=哇哇"},
-    {name: "👖裤佬丨麻雀丨影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=麻雀视频"},
-    {name: "👖裤佬丨暴风丨影视",
-      address: "http://by.bfzyapi.com/api.php/provide/vod"},
-    {name: "👖裤佬丨红果丨短剧",
+    {名字: "👖裤佬丨红果丨短剧",
       address: "https://catbox.n13.club/ai/红果短剧.php"},
-    {name: "👖裤佬丨七猫丨短剧",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=七猫短剧"},
-    {name: "👖裤佬丨西饭丨短剧",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=西饭短剧"},
-    {name: "👖裤佬丨河马丨短剧",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=河马短剧"},
-    {name: "👖裤佬丨旺旺丨短剧",
+    {名字: "👖裤佬丨星阁丨短剧",
+      address: "https://catbox.n13.club/t9/xingzhige.php"},
+    {名字: "👖裤佬丨旺旺丨短剧",
       address: "http://zhangqun1818.serv00.net/ww.php"},
-    {name: "👖裤佬丨Emby丨嗅探",
+    {名字: "👖裤佬丨永乐丨影视",
+@@ -97,14 +93,10 @@ var index_config_default = {
+      address: "https://newtv.ggff.net/uvod?token=MRdKQtZ4"},
+    {名字: "👖裤佬丨爱瓜丨影视",
+      address: "https://newtv.ggff.net/aigua?token=MRdKQtZ4"},
+    {名字: "👖裤佬丨苹果丨影视",
+      address: "https://newtv.ggff.net/pingguo?token=LOO8vZfB"},
+    {名字: "👖裤佬丨3Q丨影视",
+      address: "http://zhangqun1818.serv00.net:6628/?spider=3q影视"},
+    {名字: "👖裤佬丨Emby丨WebDAV",
       address: "http://zhangqun1818.serv00.net:6628/?spider=emby"},
-    {name: "👖裤佬丨凤凰丨FM",
+    {名字: "👖裤佬丨荐片丨APP",
+      address: "https://newtv.ggff.net/jianpian?token=P69Phb_y"},
+    {名字: "👖裤佬丨凤凰丨FM",
       address: "http://zhangqun1818.serv00.net:6628/?spider=凤凰fm"},
-    {name: "👖裤佬丨兔小贝丨少儿",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=兔小贝"}
+    {名字: "👖裤佬丨采集丨聚合",
+@@ -116,27 +108,19 @@ var index_config_default = {
+    {名字: "👖裤佬丨PHP丨聚合",
+      address: "http://zhangqun1818.serv00.net/php.php"},
+    {名字: "👖🔞裤佬丨中国丨大秀",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=色播聚合"},
+      address: "https://learnpython.ggff.net/zgdxStymei"},
+    {名字: "👖🔞裤佬丨欧美丨大秀",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=cam4"},
+    {名字: "👖🔞裤佬丨测试丨大秀",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=stripchat"},
+      address: "https://learnpython.ggff.net/cam4"},
+    {名字: "👖🔞裤佬丨俄国丨大秀",
+      address: "https://learnpython.ggff.net/elsdxStymei"},
+    {名字: "👖🔞裤佬丨51丨吃瓜",
+      address: "https://learnpython.ggff.net/51xiG"},
+    {名字: "👖🔞裤佬丨黑料丨吃瓜",
+      address: "https://learnpython.ggff.net/HLBTY"},
+    {名字: "👖🔞裤佬丨爆料丨吃瓜",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=91网爆黑料"},
+    {名字: "👖🔞裤佬丨139丨听书",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=139fm多分类"},
+    {名字: "👖🔞裤佬丨uaa丨听书",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=uaa有声"},
+    {名字: "👖🔞裤佬丨香蕉丨爬虫",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=香蕉视频"},
+    {名字: "👖🔞裤佬丨好色丨爬虫",
+      address: "http://zhangqun1818.serv00.net/haose.php"},
+      address: "https://learnpython.ggff.net/blcgStymei"},
+    {名字: "👖🔞裤佬丨EPO丨爬虫",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=epo"},
+    {名字: "👖🔞裤佬丨推特丨爬虫",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=推特"},
+    {名字: "👖🔞裤佬丨酒曲丨爬虫",
+      address: "http://zhangqun1818.serv00.net:5052/?sp=九个区"}
+      address: "https://learnpython.ggff.net/epo"}
 ]},
   cms: {list: [
-{name: "👖🔞裤佬丨麻花丨采集",
-address: "https://19q.cc/api.php/provide/vod"},
-{name: "👖🔞裤佬丨杏吧丨采集",
-address: "https://xingba111.com/api.php/provide/vod/?ac=list"},
-{name: "👖🔞裤佬丨细胞丨采集",
-address: "https://www.xxibaozyw.com/api.php/provide/vod"},
-{name: "👖🔞裤佬丨玉兔丨采集",
-address: "https://apiyutu.com/api.php/provide/vod"},
-{name: "👖🔞裤佬丨乐播丨采集",
-address: "https://lbapi9.com/api.php/provide/vod"},
-{name: "👖🔞裤佬丨幸源丨采集",
-address: "https://xzybb1.com/api.php/provide/vod"}
+{名字: "👖🔞裤佬丨麻花丨采集",
 ]},
   alist: [
     {
-      name: "🐉神族九帝",
+      名字: "🐉神族九帝",
       server: "https://alist.shenzjd.com"
     },
     {
-      name: "💢repl",
+      名字: "💢repl",
       server: "https://ali.liucn.repl.co"
     }
   ],
   color: [
     {
-      light: {
+      亮: {
         bg: "https://i2.100024.xyz/2024/01/13/pptcej.webp",
         bgMask: "0x50ffffff",
-        primary: "0xff446732",
+        主要: "0xff446732",
         onPrimary: "0xffffffff",
         primaryContainer: "0xffc5efab",
         onPrimaryContainer: "0xff072100",
@@ -182,10 +187,10 @@ address: "https://xzybb1.com/api.php/provide/vod"}
         inversePrimary: "0xffaad291",
         surfaceTint: "0xff446732"
       },
-      dark: {
+      暗: {
         bg: "https://i2.100024.xyz/2024/01/13/pptg3z.webp",
         bgMask: "0x50000000",
-        primary: "0xffaad291",
+        主要: "0xffaad291",
         onPrimary: "0xff173807",
         primaryContainer: "0xff2d4f1c",
         onPrimaryContainer: "0xffc5efab",
@@ -218,10 +223,10 @@ address: "https://xzybb1.com/api.php/provide/vod"}
       }
     },
     {
-      light: {
+      亮: {
         bg: "https://i2.100024.xyz/2024/01/13/pi2rpw.webp",
         bgMask: "0x50ffffff",
-        primary: "0xff666014",
+        主要: "0xff666014",
         onPrimary: "0xffffffff",
         primaryContainer: "0xffeee58c",
         onPrimaryContainer: "0xff1f1c00",
@@ -252,10 +257,10 @@ address: "https://xzybb1.com/api.php/provide/vod"}
         inversePrimary: "0xffd1c973",
         surfaceTint: "0xff666014"
       },
-      dark: {
+      暗: {
         bg: "https://i2.100024.xyz/2024/01/13/pi2reo.webp",
         bgMask: "0x50000000",
-        primary: "0xffd1c973",
+        主要: "0xffd1c973",
         onPrimary: "0xff353100",
         primaryContainer: "0xff4d4800",
         onPrimaryContainer: "0xffeee58c",
@@ -288,10 +293,10 @@ address: "https://xzybb1.com/api.php/provide/vod"}
       }
     },
     {
-      light: {
+      亮: {
         bg: "https://i2.100024.xyz/2024/01/13/qrnuwt.webp",
         bgMask: "0x50ffffff",
-        primary: "0xFF2B6C00",
+        主要: "0xFF2B6C00",
         onPrimary: "0xFFFFFFFF",
         primaryContainer: "0xFFA6F779",
         onPrimaryContainer: "0xFF082100",
@@ -322,10 +327,10 @@ address: "https://xzybb1.com/api.php/provide/vod"}
         inversePrimary: "0xFF8CDA60",
         surfaceTint: "0xFF2B6C00"
       },
-      dark: {
+      暗: {
         bg: "https://i2.100024.xyz/2024/01/13/qrc37o.webp",
         bgMask: "0x50000000",
-        primary: "0xFF8CDA60",
+        主要: "0xFF8CDA60",
         onPrimary: "0xFF133800",
         primaryContainer: "0xFF1F5100",
         onPrimaryContainer: "0xFFA6F779",
