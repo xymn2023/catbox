@@ -17,3 +17,11 @@ Json一键订阅--TVbox专用
 https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/18%2B.json
 ```
 
+18+ Tvbox
+
+点播
+
+```
+https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/move.txt
+```
+
