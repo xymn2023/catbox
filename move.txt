@@ -1,0 +1,13 @@
+{
+  "sites": [
+    { "key": "ynzy", "name": "🔞越南", "type": 1, "api": "https://vnzyz.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
+    { "key": "dnzzy", "name": "🔞大奶子", "type": 1, "api": "https://apidanaizi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
+    { "key": "ddzy", "name": "🔞滴滴", "type": 1, "api": "https://api.ddapi.cc/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
+    { "key": "ysjzy", "name": "🔞淫水机", "type": 1, "api": "https://www.xrbsp.com/api/json.php", "searchable": 1, "quickSearch": 1 },
+    { "key": "xnezy", "name": "🔞香奶儿", "type": 1, "api": "https://www.gdlsp.com/api/json.php", "searchable": 1, "quickSearch": 1 },
+    { "key": "bpzy", "name": "🔞白嫖", "type": 1, "api": "https://www.kxgav.com/api/json.php", "searchable": 1, "quickSearch": 1 },
+    { "key": "lbzy", "name": "🔞乐播", "type": 1, "api": "https://lbapi9.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
+    { "key": "hlxzy", "name": "🔞黑料X", "type": 1, "api": "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1 },
+    { "key": "slzy", "name": "🔞森林", "type": 1, "api": "https://slapibf.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1 }
+  ]
+}
