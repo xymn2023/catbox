@@ -9,24 +9,8 @@
     { "key": "lbzy", "name": "🔞乐播", "type": 1, "api": "https://lbapi9.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
     { "key": "hlxzy", "name": "🔞黑料X", "type": 1, "api": "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list", "searchable": 1, "quickSearch": 1 },
     { "key": "slzy", "name": "🔞森林", "type": 1, "api": "https://slapibf.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1 },
-    { "key": "jingpinzy", "name": "精品资源", "type": 1, "api": "https://www.jingpinx.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "lajiaozy", "name": "辣椒资源", "type": 1, "api": "https://apilj.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "lsbzy", "name": "老色逼资源", "type": 1, "api": "https://apilsbzy1.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "91md", "name": "91麻豆", "type": 1, "api": "https://91md.me/api.php/provide/vod/", "searchable": 1, "quickSearch": 1 },
-    { "key": "aivin", "name": "AIvin", "type": 1, "api": "https://lbapiby.com/api.php/provide/vod/at/json", "searchable": 1, "quickSearch": 1 },
-    { "key": "aosika", "name": "奥斯卡资源", "type": 1, "api": "https://aosikazy.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "fanhaozy", "name": "番号资源", "type": 1, "api": "https://fhapi9.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "huangguazy", "name": "黄瓜资源", "type": 1, "api": "https://www.zy018.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "laoyazy", "name": "老鸭资源", "type": 1, "api": "https://api.apilyzy.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "naixiangxiang", "name": "奶香香", "type": 1, "api": "https://Naixxzy.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "shayuzy", "name": "鲨鱼资源", "type": 1, "api": "https://shayuapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "tantanzy", "name": "探探资源", "type": 1, "api": "https://apittzy.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "aibozy", "name": "爱播资源", "type": 1, "api": "https://cj.apiabzy.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "yikanzy", "name": "易看资源", "type": 1, "api": "https://api.yikanapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "yutuzy", "name": "玉兔资源", "type": 1, "api": "https://apiyutu.com/api.php/provide/vod/", "searchable": 1, "quickSearch": 1 },
-    { "key": "jializy", "name": "佳丽资源", "type": 1, "api": "https://www.jializyzapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
-    { "key": "pgxzy", "name": "PGX资源", "type": 1, "api": "https://www.pgxdy.com/api/json.php", "searchable": 1, "quickSearch": 1 },
-    { "key": "semaozy", "name": "色猫资源", "type": 1, "api": "https://api.maozyapi.com/inc/apijson_vod.php", "searchable": 1, "quickSearch": 1 },
-    { "key": "meishaonvzy", "name": "美少女资源", "type": 1, "api": "https://www.msnii.com/api/json.php", "searchable": 1, "quickSearch": 1 }
+    { "key": "aosika", "name": "🔞奥斯卡资源", "type": 1, "api": "https://aosikazy.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1 },
+    { "key": "pgxzy", "name": "🔞PGX资源", "type": 1, "api": "https://www.pgxdy.com/api/json.php", "searchable": 1, "quickSearch": 1 },
+    { "key": "meishaonvzy", "name": "🔞美少女资源", "type": 1, "api": "https://www.msnii.com/api/json.php", "searchable": 1, "quickSearch": 1 }
   ]
 }
