@@ -1,20 +1,20 @@
 # 一键订阅连接
 
 ```
-https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/index.js.md5
+https://gh-proxy.org/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/index.js.md5
 ```
 
 AV一键订阅
 
 
 ```
-https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/av/index.js.md5
+https://gh-proxy.org/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/av/index.js.md5
 ```
 
 Json一键订阅--TVbox专用
 
 ```
-https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/18%2B.json
+https://gh-proxy.org/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/18%2B.json
 ```
 
 18+ Tvbox
@@ -22,6 +22,6 @@ https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/catbox/refs
 点播
 
 ```
-https://cffast.panell.top/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/move.txt
+https://gh-proxy.org/https://raw.githubusercontent.com/xymn2023/catbox/refs/heads/main/move.txt
 ```
 
